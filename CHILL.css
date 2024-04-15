@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #bbfecf;
+  color: #4caf50;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Thanh tìm kiếm */
+#search {
+  position: relative;
+  margin-right: 20px; /* Khoảng cách giữa thanh tìm kiếm và các phần còn lại của header */
+}
+
+#searchInput {
+  width: 250px; /* Độ rộng của ô tìm kiếm */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+#searchInput:focus {
+  border-color: #4caf50; /* Màu viền khi ô tìm kiếm được focus */
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: auto;
+  height: 200px;
+}
+
+.product button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
